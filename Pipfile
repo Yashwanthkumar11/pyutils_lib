@@ -1,0 +1,22 @@
+[packages]
+certifi = "*"
+cryptography = "*"
+psutil = "*"
+python-dateutil = "*"
+Jinja2 = "*"
+pyyaml = "*"
+
+[dev-packages]
+path = "*"
+pylint = "*"
+setuptools = "*"
+wheel = "*"
+invoke = "*"
+testfixtures = "*"
+mock = "*"
+pytest-cov = "*"
+pytest = "*"
+pytest-mock = "*"
+
+[requires]
+python_version = "3"
