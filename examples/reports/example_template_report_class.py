@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from datetime import datetime
 
-from pyutils_lib_modules.reports.jinja2_report import Jinja2Report
+from pyutils_lib.reports.jinja2_report import Jinja2Report
 from datetime import date
 
-from pyutils_lib_modules.services.report_writer import ReportWriter
+from pyutils_lib.services.report_writer import ReportWriter
 
 @dataclass
 class ReleaseNotes(Jinja2Report):

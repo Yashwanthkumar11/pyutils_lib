@@ -1,7 +1,7 @@
 import  csv, os, logging
 
-from pyutils_lib_modules.services.config_manager import ConfigManager
-from pyutils_lib_modules.services.StatTimer import StatTimer
+from pyutils_lib.services.config_manager import ConfigManager
+from pyutils_lib.services.stat_timer import StatTimer
 
 # Since Abstract Report is loaded dynamically, this setting must be defined here (or in Main)
 ConfigManager().define_setting("REPORTS_FOLDER",False, "./reports", "output_folder_path","")
