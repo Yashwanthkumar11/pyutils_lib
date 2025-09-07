@@ -1,6 +1,6 @@
 import os, shutil, datetime, yaml, logging, argparse
-from pyutils_lib_modules.model.config_setting import ConfigSetting
-from pyutils_lib_modules.services.crypto_service import CryptoServices
+from pyutils_lib.model.config_setting import ConfigSetting
+from pyutils_lib.services.crypto_service import CryptoServices
 
 class ConfigManager():
     '''

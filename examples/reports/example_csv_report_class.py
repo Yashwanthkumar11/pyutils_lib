@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from datetime import datetime
 
-from pyutils_lib_modules.reports.csv_report import CSVReport
-from pyutils_lib_modules.services.report_writer import ReportWriter
+from pyutils_lib.reports.csv_report import CSVReport
+from pyutils_lib.services.report_writer import ReportWriter
 
 @dataclass()
 class ExampleCSVReport(CSVReport):

@@ -2,7 +2,7 @@ import os
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
 
-from pyutils_lib_modules.services.config_manager import ConfigManager
+from pyutils_lib.services.config_manager import ConfigManager
 
 @dataclass
 class AbstractReport(ABC):

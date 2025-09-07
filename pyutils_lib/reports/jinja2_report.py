@@ -1,8 +1,8 @@
 import os
 from datetime import datetime
 from dataclasses import dataclass
-from pyutils_lib_modules.services.config_manager import ConfigManager
-from pyutils_lib_modules.reports.abstract_report import AbstractReport
+from pyutils_lib.services.config_manager import ConfigManager
+from pyutils_lib.reports.abstract_report import AbstractReport
 from jinja2 import Environment, FileSystemLoader
 
 @dataclass

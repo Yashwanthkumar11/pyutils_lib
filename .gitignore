@@ -44,7 +44,8 @@ Pipfile.lock
 *.dat
 .DS_Store
 .projectile
-secrets.conf
+*.conf
+
 
 # Coverage Stuff
 *.coverage*

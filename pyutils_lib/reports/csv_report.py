@@ -2,8 +2,8 @@ from datetime import datetime
 import os, csv
 
 from dataclasses import dataclass, field
-from pyutils_lib_modules.reports.abstract_report import AbstractReport
-from pyutils_lib_modules.services.config_manager import ConfigManager
+from pyutils_lib.reports.abstract_report import AbstractReport
+from pyutils_lib.services.config_manager import ConfigManager
 
 @dataclass
 class CSVReport(AbstractReport):
