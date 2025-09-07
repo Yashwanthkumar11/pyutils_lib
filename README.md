@@ -117,7 +117,7 @@ pylint pyutils_lib
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Yashwanthkumar11/pyutils_lib/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Yashwanthkumar11/pyutils_lib/blob/main/LICENSE) file for details.
 
 ## Support
 
